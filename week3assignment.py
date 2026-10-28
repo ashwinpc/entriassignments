@@ -39,8 +39,8 @@ while True:
     else:
         print("Invalid choice")
 
-    again = input("Do you want to continue? (yes/no): ")
+    s = input("Do you want to continue? (yes/no): ")
 
-    if again.lower() != "yes":
+    if s != "yes" and s != "YES":
         print("Calculator stopped.")
         break
